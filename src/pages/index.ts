@@ -1,0 +1,24 @@
+// Экспорт всех страниц для удобного импорта
+export { default as HomePage } from './HomePage';
+export { default as CatalogPage } from './CatalogPage';
+export { default as ProductPage } from './ProductPage';
+export { default as LoginPage } from './auth/LoginPage';
+export { default as RegisterPage } from './auth/RegisterPage';
+export { default as RecoverPage } from './auth/RecoverPage';
+export { default as CartPage } from './CartPage';
+export { default as CheckoutPage } from './CheckoutPage';
+export { default as CheckoutSuccessPage } from './CheckoutSuccessPage';
+export { default as SearchPage } from './SearchPage';
+export { default as PlayersPage } from './community/PlayersPage';
+export { default as PlayerSetupPage } from './community/PlayerSetupPage';
+export { default as BlogPage } from './blog/BlogPage';
+export { default as BlogPostPage } from './blog/BlogPostPage';
+export { default as MouseFinderPage } from './tools/MouseFinderPage';
+export { default as SetupFinderPage } from './tools/SetupFinderPage';
+export { default as SalePage } from './SalePage';
+export { default as GiftCardPage } from './GiftCardPage';
+export { default as GiftCardActivationPage } from './GiftCardActivationPage';
+export { default as DeliveryPaymentPage } from './DeliveryPaymentPage';
+export { default as MouseComparisonPage } from './tools/MouseComparisonPage';
+export { default as MouseStatsPage } from './tools/MouseStatsPage';
+export { default as ContactsPage } from './ContactsPage';
